@@ -126,9 +126,11 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
+  margin: 0 10px;
 }
 
 .card__block-img {
+  position: relative;
   width: 100%;
   height: 186px;
 }
@@ -136,6 +138,16 @@
 .card__img {
   width: 100%;
   height: 100%;
+}
+
+.card__img_icon {
+  top: 15px;
+  position: absolute;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: rgba(36, 35, 35, 0.5);
 }
 
 .card__descr__list {
@@ -399,6 +411,49 @@ body {
 
 .main__baner-slider {
   margin-top: 80px;
+}
+
+.main__baner-carusel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main__baner-share {
+  list-style: none;
+  padding: 0;
+  width: 190px;
+  margin-right: 80px;
+}
+
+.baner-share-item {
+  font-size: 17px;
+  line-height: 25px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.baner-share_link {
+  width: 100%;
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 35px;
+  color: #003048;
+  font-family: "Open Sans";
+  font-weight: 600;
 }
 
 .h4 {

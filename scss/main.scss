@@ -92,11 +92,43 @@ body {
   border-radius: 10px;
   margin-top: 25px;
 }
-.main__baner-slider{
-    margin-top: 80px;
+.main__baner-slider {
+  margin-top: 80px;
+}
+.main__baner-carusel{
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-between;
+}
+.main__baner-share {
+  list-style: none;
+  padding: 0;
+  width: 190px;
+  margin-right: 80px;
+}
+.baner-share-item {
+  font-size: 17px;
+  line-height: 25px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.baner-share_link {
+  width: 100%;
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 35px;
+  color: #003048;
+  font-family: "Open Sans";
+  font-weight: 600;
 }
 .h4 {
-    margin-top: 0;
+  margin-top: 0;
   font-size: 20px;
   line-height: 24px;
   color: #ffffff;

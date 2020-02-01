@@ -5,14 +5,25 @@
   overflow: hidden;
   display: flex;
   flex-flow: column nowrap;
+  margin: 0 10px;
 }
 .card__block-img {
- width: 100%;
+    position: relative;
+  width: 100%;
   height: 186px;
 }
 .card__img {
   width: 100%;
   height: 100%;
+}
+.card__img_icon {
+    top: 15px;
+    position: absolute;
+    right: 15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: rgba($color: #242323, $alpha: 0.5);
 }
 .card__descr__list {
   margin-top: 0;
