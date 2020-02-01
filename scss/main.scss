@@ -179,16 +179,17 @@ body {
   font-weight: 400;
 }
 ////Popular destinations
-.gallery-block{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: flex-start;
+.gallery-block {
+  width: 70%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
 }
-.gallery-item{
-    max-width: 200px;
-    min-height: 200px;
-    margin: 15px;
+.gallery-item {
+  max-width: 200px;
+  min-height: 200px;
+  
 }
 
 .gallery-item_block-img {
