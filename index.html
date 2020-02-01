@@ -22,6 +22,7 @@
       crossorigin="anonymous"
     /> -->
     <link rel="stylesheet" href="css/main.css" />
+    <script src="https://use.fontawesome.com/8181bfbc0d.js"></script>
 
     <title>BS_main_V3.2</title>
   </head>
@@ -52,7 +53,7 @@
             </li>
             <li class="header__options-item">
               <a href="#" class="options-link header__link">
-                Add review
+                Add review<i class="fas fa-sort-down"></i>
               </a>
             </li>
             <li class="header__options-item">
@@ -93,10 +94,18 @@ with all beach lovers!
   </div>
   <!-- /.main__baner-share -->
   <div class="main__baner-views">
+<h4 class="h4">You recently viewed</h4>
+
 
   <div class="main__baner-views__card">
-      <img src="/img/baner_sl1.png" alt="sl1" class="card__img">
-      <div class="card__descr">
+<div class="card__block-img">
+  <img src="/img/baner_sl1.png" alt="sl1" class="card__img">
+
+</div>
+      
+
+      <div class="card__descr_block">
+        <div class="card__descr_item">
         <ul class="card__descr__list">
           <li class="card-descr_location"> 
             <span class="card-descr_country">MENORCA</span>,
@@ -106,7 +115,8 @@ with all beach lovers!
             Cala Mitjaha
           </li>
           <li class="card-descr_resort">
-            Alcudia
+            Alcudia <span class="card-descr-distance">2 km</span>
+
           </li>
         </ul>
         <!-- /.card__descr_list -->
@@ -116,13 +126,19 @@ with all beach lovers!
             <p class="rating-views mar-pad_0">
               <span class="rating-views-item mar-pad_0">20</span>
               reviews</p>
-          </div>
+          </div> <!--/rating-descr-->
+
           <div class="rating-bal mar-pad_0">8.5</div> 
         </div> <!-- /.card-descr_rating -->
+        </div> <!--/card__descr_item-->
 
-        </div> <!--/card__descr-->
         <p class="card-descr_privileges">White sand, natural shadow, snorkling</p>
-        <!-- /.card-descr_privileges --> 
+        
+        
+        
+
+        </div> <!--/card__descr_block-->
+        
       
     </div>
 
@@ -141,7 +157,7 @@ with all beach lovers!
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
+    <!-- <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
       crossorigin="anonymous"
@@ -155,6 +171,6 @@ with all beach lovers!
       src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
   </body>
 </html>

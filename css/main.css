@@ -117,11 +117,25 @@
 .main__baner-views__card {
   width: 300px;
   height: 300px;
-  border-radius: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+.card__block-img {
+  width: 100%;
+  height: 186px;
 }
 
 .card__img {
   width: 100%;
+  height: 100%;
 }
 
 .card__descr__list {
@@ -131,7 +145,26 @@
   list-style: none;
 }
 
-.card__descr {
+.card__descr_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: #ffffff;
+  padding: 10px 15px 15px 15px;
+}
+
+.card__descr_item {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -139,13 +172,12 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: row nowrap;
           flex-flow: row nowrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #ffffff;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .mar-pad_0 {
@@ -153,7 +185,47 @@
   padding: 0;
 }
 
+.card-descr_location {
+  font-size: 11px;
+  color: #303030;
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+
+.card-descr_place {
+  font-size: 16px;
+  line-height: 25px;
+  color: #0b6e7e;
+  font-family: "Open Sans";
+  font-weight: 600;
+}
+
+.card-descr_resort {
+  font-size: 13px;
+  line-height: 25px;
+  color: #000000;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+.card-descr_resort .card-descr-distance {
+  list-style-type: disc;
+}
+
 .card-descr_rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 30px;
 }
 
@@ -161,13 +233,38 @@
   display: inline-block;
 }
 
+.card-descr_rating .rating-item {
+  font-size: 14px;
+  color: #000000;
+  font-family: "Segoe UI";
+}
+
+.card-descr_rating .rating-views {
+  font-size: 10px;
+  color: #a1a1a1;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
 .card-descr_rating .rating-bal {
   width: 30px;
   height: 30px;
+  padding-top: 8px;
   text-align: center;
-  display: inline-block;
   background-color: #1154ac;
+  border-radius: 5px;
+  font-size: 14px;
   color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+.card-descr_privileges {
+  font-size: 14px;
+  color: #141414;
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin-bottom: 0;
 }
 
 body {
@@ -195,13 +292,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  height: 1090px;
 }
 
 .main__baner-bg {
   background-color: rgba(0, 0, 0, 0.5);
   width: 100vw;
-  height: 100vh;
+  height: 1090px;
 }
 
 .flex_columm_center {
@@ -298,5 +395,18 @@ body {
   border: none;
   border-radius: 10px;
   margin-top: 25px;
+}
+
+.main__baner-slider {
+  margin-top: 80px;
+}
+
+.h4 {
+  margin-top: 0;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 400;
 }
 /*# sourceMappingURL=main.css.map */
