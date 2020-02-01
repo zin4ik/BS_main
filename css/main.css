@@ -472,4 +472,50 @@ body {
   font-family: "Open Sans";
   font-weight: 600;
 }
+
+.filter-section_descr {
+  font-size: 16px;
+  line-height: 25px;
+  color: #313131;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+.filters-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+.filter-item {
+  min-width: 130px;
+  max-width: 130px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.ilter-item_block-img {
+  width: 130px;
+  height: 130px;
+}
+
+.filter-item-img {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 17px -6px rgba(0, 0, 0, 0.37);
+          box-shadow: 0px 10px 17px -6px rgba(0, 0, 0, 0.37);
+}
+
+.filter-item-descr {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
 /*# sourceMappingURL=main.css.map */
