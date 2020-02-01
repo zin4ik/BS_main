@@ -518,4 +518,64 @@ body {
   font-family: "Open Sans";
   font-weight: 400;
 }
+
+.gallery-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.gallery-item {
+  max-width: 200px;
+  min-height: 200px;
+  margin: 15px;
+}
+
+.gallery-item_block-img {
+  width: 200px;
+}
+
+.galery-item-img {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 17px -6px rgba(0, 0, 0, 0.37);
+          box-shadow: 0px 10px 17px -6px rgba(0, 0, 0, 0.37);
+}
+
+.gallery_descr-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 15px;
+}
+
+.gallery_descr-sity,
+.gallery_descr-country {
+  font-size: 17px;
+  line-height: 25px;
+  color: #313131;
+  font-family: "Open Sans";
+  font-weight: 600;
+}
+
+.gallery_descr-item_day {
+  font-size: 14px;
+  color: #0b6e7e;
+  font-family: "Segoe UI";
+}
+
+.gallery_descr-item_natur {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Segoe UI";
+}
 /*# sourceMappingURL=main.css.map */
