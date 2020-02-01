@@ -95,10 +95,10 @@ body {
 .main__baner-slider {
   margin-top: 80px;
 }
-.main__baner-carusel{
-display: flex;
-flex-flow: row nowrap;
-justify-content: space-between;
+.main__baner-carusel {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
 }
 .main__baner-share {
   list-style: none;
@@ -134,4 +134,13 @@ justify-content: space-between;
   color: #ffffff;
   font-family: "Open Sans";
   font-weight: 400;
+}
+
+///block_Popular filters
+.section-h3 {
+  font-size: 22px;
+  line-height: 24px;
+  color: #0b5a88;
+  font-family: "Open Sans";
+  font-weight: 600;
 }

@@ -464,4 +464,12 @@ body {
   font-family: "Open Sans";
   font-weight: 400;
 }
+
+.section-h3 {
+  font-size: 22px;
+  line-height: 24px;
+  color: #0b5a88;
+  font-family: "Open Sans";
+  font-weight: 600;
+}
 /*# sourceMappingURL=main.css.map */
