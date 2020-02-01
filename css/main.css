@@ -578,4 +578,17 @@ body {
   color: #000000;
   font-family: "Segoe UI";
 }
+
+.gallery-btn {
+  font-size: 16px;
+  line-height: 24px;
+  color: #0b5a88;
+  font-family: "Open Sans";
+  font-weight: 600;
+  padding: 15px;
+  margin-top: 10px;
+  border: 1px solid #0b5a88;
+  border-radius: 5px;
+  background: none;
+}
 /*# sourceMappingURL=main.css.map */
