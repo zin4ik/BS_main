@@ -231,7 +231,20 @@ body {
   font-weight: 600;
   padding: 15px;
   margin-top: 10px;
-  border:1px solid #0b5a88;
+  border: 1px solid #0b5a88;
   border-radius: 5px;
   background: none;
+}
+.gallery {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.gallary_sitebar {
+  width: 24%;
+  background-color: rgb(224, 223, 223);
+  text-align: center;
+  margin-bottom: 90px;
+  padding-top: 200px;
 }
