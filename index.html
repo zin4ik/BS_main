@@ -27,31 +27,111 @@
   </head>
   <body>
     <header class="header">
-      <div class="wrapp">
+      <div class="wrapp header__menu">
+
         <div class="header__block">
-          <a href="#" class="header__block-link logo-link">
+          <a href="#" class="header__block-link logo-link header__link">
             <img src="/img/logo.png" alt="logo" class="header__block-img" />
             <h1 class="header__h1">
               BeachSearcher
               <sup class="header__h1_betta">Beta</sup>
             </h1>
           </a>
-          <a href="#" class="header__block-link">Beaches</a>
-          <a href="#" class="header__block-link">Hotels</a>
+          <a href="#" class="header__block-link header__link">Beaches</a>
+          <a href="#" class="header__block-link header__link">Hotels</a>
         </div>
         <!-- /.header__block -->
 
-        <nav class="Header__nav"></nav>
-      </div>
+        <nav class="header__options">
+          <ul class="header__options-list">
+            <li class="header__options-item">
+              <select id="lang-select" class="header__link">
+                <option value="eng" selected>English</option>
+                <option value="next">next lang</option>
+              </select>
+            </li>
+            <li class="header__options-item">
+              <a href="#" class="options-link header__link">
+                Add review
+              </a>
+            </li>
+            <li class="header__options-item">
+              <a href="#" class="options-link header__link">
+                Sign in
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- /.header__block_options -->
+      </div> <!--/wrapp-->
     </header>
     <!-- /.header -->
 
     <main class="main">
       <section class="main__baner">
-        <div class="main__baner-bg">
-          
+        <div class="main__baner-bg flex_columm_center">
+          <div class="main__baner-find">
+            <h2 class="main__baner-title">Find your<br>
+  perfect beach</h2>
+  <p class="main__baner-find_txt">in <span class="main__baner-find_region">mediterranean</span>  region</p>
+
+  <input type="text" placeholder="Location or beach name" class="main__baner-find_inpt">
+  <button class="main__baner-find_btn">Search</button>
+          </div>
+          <!-- /.main__baner-find -->
+
+
+
+<div class="main__baner-slider flex_row_center">
+  <div class="main__baner-share">
+    <p class="baner-share-item">
+      Share your experience
+with all beach lovers!
+    </p>
+    <a href="#">Publish a photo</a>
+    <a href="#">Add a review</a>
+  </div>
+  <!-- /.main__baner-share -->
+  <div class="main__baner-views">
+
+  <div class="main__baner-views__card">
+      <img src="/img/baner_sl1.png" alt="sl1" class="card__img">
+      <div class="card__descr">
+        <ul class="card__descr__list">
+          <li class="card-descr_location"> 
+            <span class="card-descr_country">MENORCA</span>,
+            <span class="card-descr_sity">SPAIN</span>
+          </li>
+          <li class="card-descr_place">
+            Cala Mitjaha
+          </li>
+          <li class="card-descr_resort">
+            Alcudia
+          </li>
+        </ul>
+        <!-- /.card__descr_list -->
+        <div class="card-descr_rating">
+          <div class="rating-descr">
+            <p class="rating-item mar-pad_0">Excellent</p>
+            <p class="rating-views mar-pad_0">
+              <span class="rating-views-item mar-pad_0">20</span>
+              reviews</p>
+          </div>
+          <div class="rating-bal mar-pad_0">8.5</div> 
+        </div> <!-- /.card-descr_rating -->
+
+        </div> <!--/card__descr-->
+        <p class="card-descr_privileges">White sand, natural shadow, snorkling</p>
+        <!-- /.card-descr_privileges --> 
+      
+    </div>
+
+  </div>
+  <!-- /.main__baner-views -->
+</div>
+<!-- /.main__baner-slider -->
         </div>
-        <!-- /.container -->
+        <!-- /.main__baner-bg -->
       </section>
       <!--/main__baner-->
     </main>
