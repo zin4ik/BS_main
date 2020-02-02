@@ -142,7 +142,18 @@
   }
 
       }
-
+.footer{
+    padding-left: 10px;
+    &__block {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: flex-start;
+    &-img{
+        display: none;
+    }
+    }
+}
 
 
 }

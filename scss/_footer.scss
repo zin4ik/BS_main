@@ -1,0 +1,39 @@
+.footer {
+ padding-top: 25px;
+ padding-bottom: 25px;
+  background: #ccc;
+
+  &__sections{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    
+
+  } 
+  &__block {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    &-logo{
+      margin-bottom: 15px;
+    }
+    &-link {
+      color: #313131;
+      margin-right: 15px;
+      font-family: "Open Sans", sans-serif;
+    }
+
+    &-img {
+      margin-right: 10px;
+    }
+  }
+  &__settings{
+    margin-bottom: 40px;
+  }
+  .settings_item{
+      color: #313131;
+      margin-right: 15px;
+      font-family: "Open Sans", sans-serif;
+    }
+}
