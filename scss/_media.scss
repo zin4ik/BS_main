@@ -1,0 +1,148 @@
+@media screen and(max-width:1700px) {
+  .main {
+    .wrapp-padding {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+
+  .gallery {
+    .gallery-item {
+      &_block-img {
+        width: 100%;
+      }
+    }
+  }
+  .flex_row_center {
+    .main__baner-share {
+      margin-right: 40px;
+    }
+  }
+}
+
+@media screen and(max-width:1300px) {
+  .main__baner-carusel {
+    justify-content: flex-start;
+
+    .main__baner-views__card {
+      width: 250px;
+      .card__descr_block {
+        padding: 10px 5px;
+        .card-descr_place {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  .main {
+    .wrapp-padding {
+      padding-left: 15px;
+      padding-right: 15px;
+      .section-padding {
+        padding-bottom: 0px;
+      }
+    }
+    .main__baner-title {
+      font-size: 30px;
+      line-height: 37px;
+      color: #ffffff;
+      font-family: "Segoe UI";
+    }
+    .main__baner-find_txt {
+      margin: 15px 0px;
+    }
+    .main__baner-share {
+      display: none;
+    }
+    .main__baner-find_inpt {
+      font-size: 17px;
+    }
+  }
+
+  .gallery {
+    .gallery-block {
+      width: 100%;
+    }
+    .gallary_sitebar {
+      display: none;
+    }
+  }
+}
+@media screen and(max-width:1024px) {
+  body {
+    .wrapp {
+      width: 95%;
+    }
+  }
+}
+@media screen and(max-width:800px) {
+  .header {
+    &__menu-mob {
+      display: flex;
+    }
+    &__options {
+      display: none;
+    }
+  }
+
+  .main__baner {
+    .main__baner-find {
+      width: 50%;
+    }
+  }
+}
+@media screen and(max-width:480px) {
+    body {
+        .wrapp {
+          width: 100%;
+        }
+      }
+      .main{
+  .main__baner {
+      height: auto;
+
+      &-bg{
+    height: auto;  
+    }
+    .main__baner-find {
+      width: 80%;
+      margin-top: 100px;
+    }
+    .main__baner-find_inpt {
+       padding:15px;
+    }
+    .main__baner-find_btn{
+        padding:15px;
+    }
+  }
+  .main__baner-slider{
+      background-color: #ffffff;
+  }
+  .gallery {
+    .gallery-block {
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      overflow: hidden;
+      .gallery-item {
+        width: 148px;
+        margin-right: 10px;
+        &_block-img {
+          width: 148px;
+        }
+      }
+    }
+  }
+  .filters-block {
+    .filter-item {
+      min-width: 148px;
+      max-width: 148px;
+      margin-left: 0px;
+      margin-right: 10px;
+    }
+  }
+
+      }
+
+
+
+}

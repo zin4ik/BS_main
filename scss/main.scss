@@ -2,6 +2,8 @@
 @import "header";
 @import "media";
 @import "card";
+@import "media";
+@import "mob";
 
 body {
   max-width: 1920px;
@@ -13,10 +15,15 @@ body {
 .wrapp {
   width: 80%;
   margin: 0 auto;
+  overflow: hidden;
 }
 .wrapp-padding {
   padding-left: 90px;
   padding-right: 90px;
+}
+.section-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 // baner block
 .main__baner {
@@ -40,7 +47,7 @@ body {
 .flex_row_center {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .main__baner-find {
@@ -178,6 +185,7 @@ body {
   font-family: "Open Sans";
   font-weight: 400;
 }
+
 ////Popular destinations
 .gallery-block {
   width: 70%;
@@ -187,7 +195,7 @@ body {
   align-items: flex-start;
 }
 .gallery-item {
-  max-width: 200px;
+  width: 23%;
   min-height: 200px;
 }
 
@@ -245,6 +253,11 @@ body {
   width: 24%;
   background-color: rgb(224, 223, 223);
   text-align: center;
-  margin-bottom: 90px;
+  margin-bottom: 110px;
   padding-top: 200px;
+}
+
+////////new stily
+.main__baner-share {
+  min-width: 180px;
 }
